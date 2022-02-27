@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 import dj_database_url
+
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -28,8 +29,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 DEBUG = False 
 
 ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
-# local設定↓
-# ALLOWED_HOSTS = []
 
 # Application definition
 
@@ -90,7 +89,10 @@ DATABASES = {
         'PORT': '',
     }
 }
-
+# db_from_env = dj_database_url.config()
+# DATABASES = {
+#     'default': dj_database_url.config()
+# }
 
 
 # Password validation

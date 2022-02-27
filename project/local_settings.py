@@ -14,7 +14,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = 'django-insecure-430*o$wjyc4p-2*7rz5misf1w^o2ghr792)qv2d1j&4-g3)j#h'
-
+ALLOWED_HOSTS = []
 DEBUG = True 
 
 DATABASES = {

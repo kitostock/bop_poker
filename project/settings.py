@@ -28,7 +28,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False 
 
-ALLOWED_HOSTS = ['https://bop-poker.herokuapp.com/']
+ALLOWED_HOSTS = ['bop-poker.herokuapp.com']
+# localよう
+# ALLOWED_HOSTS = []
 
 # Application definition
 

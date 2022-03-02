@@ -18,6 +18,6 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('999-kitostock-0bops1-hide-admin/', admin.site.urls),
     path('app/', include('app.urls')),
 ]
